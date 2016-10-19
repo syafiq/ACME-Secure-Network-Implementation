@@ -1,0 +1,12 @@
+dev tun
+proto udp
+remote 172.31.212.117 1195
+ifconfig 10.8.0.2 10.8.0.1
+persist-key
+persist-tun
+secret netgear_vm1.key 
+comp-lzo
+verb 3
+keepalive 10 120
+ping-timer-rem
+daemon

@@ -1,0 +1,15 @@
+ctrl_interface=/var/run/wpa_supplicant
+eapol_version=1
+ctrl_interface_group=root
+ap_scan=1
+fast_reauth=1
+network={
+        key_mgmt=WPA-EAP
+        eap=PEAP
+        pairwise=TKIP
+        identity="atiiq@kth.se"
+        anonymous_identity="atiiq@kth.se"
+        password="Oncom132"
+        phase2="auth=MSCHAPV2"
+        #priority=2
+}

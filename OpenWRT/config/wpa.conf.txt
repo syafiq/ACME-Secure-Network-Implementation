@@ -1,0 +1,11 @@
+ap_scan=1
+network={
+	ssid="KTHOPEN-WPA"
+	key_mgmt=WPA-EAP
+	eap=PEAP
+	identity="honore"
+	password="edmzbTQvJ"
+	subject_match="/CN=radius-wpa-1.lan.kth.se"
+	phase2="auth=MSCHAPV2"
+	priority=17
+}

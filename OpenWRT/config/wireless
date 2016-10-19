@@ -1,0 +1,20 @@
+
+config wifi-device 'radio0'
+	option type 'mac80211'
+	option channel '11'
+	option hwmode '11g'
+	option path 'platform/ar934x_wmac'
+	option htmode 'HT20'
+	option txpower '22'
+	option country 'US'
+	option disabled '0'
+
+config wifi-iface
+	option device 'radio0'
+	option mode 'ap'
+	option network 'lan'
+	option server '172.31.212.117'
+	option key 'toto!2x06'
+	option ssid 'ACME_London_OpenWRT'
+	option encryption 'wpa2'
+

@@ -1,0 +1,34 @@
+
+config system
+	option hostname 'ACME_London_OpenWRT'
+	option zonename 'UTC'
+	option timezone 'GMT0'
+	option conloglevel '8'
+	option cronloglevel '8'
+
+config timeserver 'ntp'
+	list server '0.openwrt.pool.ntp.org'
+	list server '1.openwrt.pool.ntp.org'
+	list server '2.openwrt.pool.ntp.org'
+	list server '3.openwrt.pool.ntp.org'
+	option enabled '1'
+
+config led 'led_wan'
+	option name 'WAN (green)'
+	option sysfs 'netgear:green:wan'
+	option trigger 'netdev'
+	option dev 'eth0'
+	option mode 'link tx rx'
+
+config led 'led_usb'
+	option name 'USB'
+	option sysfs 'netgear:blue:usb'
+	option trigger 'usbdev'
+	option dev '1-1'
+	option interval '50'
+
+config led 'led_wlan'
+	option name 'WLAN'
+	option sysfs 'netgear:blue:wlan'
+	option trigger 'phy1tpt'
+

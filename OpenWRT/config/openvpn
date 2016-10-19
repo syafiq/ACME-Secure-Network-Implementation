@@ -1,0 +1,14 @@
+
+#config openvpn 'myvpn'
+#	option enabled '1'
+#	option dev 'tun'
+#	option proto 'udp'
+#	option verb '3'
+#	option cert '/tmp/wrt.crt'
+#	option key '/tmp/wrt.key'
+#	option client '1'
+#	option remote_cert_tls 'server'
+#	option remote '172.31.212.117 1195'
+#	option ca '/tmp/ca.crt'
+#	option push 'route 192.168.1.0 255.255.255.0'
+
