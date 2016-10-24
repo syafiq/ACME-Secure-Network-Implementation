@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/root/.gradle/caches/modules-2/files-2.1/com.madgag.spongycastle/core/1.51.0.0/f642963312ea0e615ad65f28adc5a5b3a2a0862/core-1.51.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0f642963312ea0e615ad65f28adc5a5b3a2a0862">
+        <dex dex="/home/antoine/bnss/App_OTP/BananaProject/app/build/intermediates/pre-dexed/debug/core-1.51.0.0_d5a17c845865d7ef87044f8badf72c176d59ad48.jar" />
+    </item>
+    <item
+        jar="/home/antoine/bnss/App_OTP/BananaProject/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="/home/antoine/bnss/App_OTP/BananaProject/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.1.1_609baf23f2077c0deca08533adf798be3c4bc3e6.jar" />
+    </item>
+    <item
+        jar="/root/.gradle/caches/modules-2/files-2.1/com.madgag.spongycastle/prov/1.51.0.0/6755081df770180856ca48694b40cd34c2208128/prov-1.51.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6755081df770180856ca48694b40cd34c2208128">
+        <dex dex="/home/antoine/bnss/App_OTP/BananaProject/app/build/intermediates/pre-dexed/debug/prov-1.51.0.0_29b1aea28883a28b300b5520ff5cd1174b934c71.jar" />
+    </item>
+    <item
+        jar="/home/antoine/bnss/App_OTP/BananaProject/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/home/antoine/bnss/App_OTP/BananaProject/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.1.1_c8a777ad74a24743840f54587e746ae3eb5f7d02.jar" />
+    </item>
+    <item
+        jar="/home/antoine/bnss/App_OTP/BananaProject/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/home/antoine/bnss/App_OTP/BananaProject/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_a47a9f6e15a55c95dcf2457edc61f71aa87352ab.jar" />
+    </item>
+    <item
+        jar="/home/antoine/bnss/App_OTP/BananaProject/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/zxing/1.8.4/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="68ef1daf85c69fca8fddf7bbb947fc51cc9f8ca3">
+        <dex dex="/home/antoine/bnss/App_OTP/BananaProject/app/build/intermediates/pre-dexed/debug/me.dm7.barcodescanner-zxing-1.8.4_53b3579daa1d97fa55f2091000692484fcbd400f.jar" />
+    </item>
+    <item
+        jar="/root/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.2.1/2287494d4f5f9f3a9a2bb6980e3f32053721b315/core-3.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="/home/antoine/bnss/App_OTP/BananaProject/app/build/intermediates/pre-dexed/debug/core-3.2.1_7cbe42c14d7eae00612a94cab544849d25d04fd0.jar" />
+    </item>
+    <item
+        jar="/root/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/home/antoine/bnss/App_OTP/BananaProject/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1_b0c91f45b5c2e0241b5a2511dcb2eec0f59fb5f5.jar" />
+    </item>
+    <item
+        jar="/home/antoine/bnss/App_OTP/BananaProject/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/core/1.8.4/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="af8d42f1f020e936b8cd9f5cb6c75993194895a3">
+        <dex dex="/home/antoine/bnss/App_OTP/BananaProject/app/build/intermediates/pre-dexed/debug/me.dm7.barcodescanner-core-1.8.4_c785d24212cb67a56ce5fb914b8b7624fa599600.jar" />
+    </item>
+    <item
+        jar="/root/.gradle/caches/modules-2/files-2.1/com.madgag.spongycastle/pg/1.51.0.0/597a22ac4d21069afce4d101ff4b027a19ef1a2/pg-1.51.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0597a22ac4d21069afce4d101ff4b027a19ef1a2">
+        <dex dex="/home/antoine/bnss/App_OTP/BananaProject/app/build/intermediates/pre-dexed/debug/pg-1.51.0.0_e0eadca51f338e1ac0b0d8022029be96bc7fd225.jar" />
+    </item>
+    <item
+        jar="/home/antoine/bnss/App_OTP/BananaProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/home/antoine/bnss/App_OTP/BananaProject/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.1.1_5dd1316b8896396ee7b5062d7ae44f60f8784245.jar" />
+    </item>
+    <item
+        jar="/home/antoine/bnss/App_OTP/BananaProject/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="/home/antoine/bnss/App_OTP/BananaProject/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.1.1_2a533f3e347ec9d67c71bbe8faeedc6f77bdfc68.jar" />
+    </item>
+    <item
+        jar="/root/.gradle/caches/modules-2/files-2.1/com.madgag.spongycastle/pkix/1.51.0.0/40a445852ca58187fc616e3a8b42de463bf14b8b/pkix-1.51.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="40a445852ca58187fc616e3a8b42de463bf14b8b">
+        <dex dex="/home/antoine/bnss/App_OTP/BananaProject/app/build/intermediates/pre-dexed/debug/pkix-1.51.0.0_4bc06e5242ad19f2db7c425dec80d110b108f41c.jar" />
+    </item>
+
+</items>

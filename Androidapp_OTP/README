@@ -1,0 +1,54 @@
+============================================================
+
+Title:            Two ways authentication, App and scripts
+
+Author:           BNSS - Groupe 8 - 
+
+Description:      This archive contains the android app to perform the 2 ways authentication and the scripts we use to handle the keys and OTP.
+
+============================================================
+---------------------------
+--------Android App--------
+---------------------------
+
+	- The minimum SDK version is 15. The app cannot be installed with device running a SDK version lower than 15.
+	- This archive contains a file 'client.pvk' this file should be kept secret and can be put in any directory on the device. The default location is /sdcard. The location can be modified in the file app/src/main/res/values/strings.xml.
+The line to modify is  <string name="path_privatekey">/sdcard/client.pvk</string>
+	-This key is associated with an account when trying to connect on 172.31.212.117
+		username: bono
+		pass: 1234
+	- Some other buttons are also displayed on the main page but do not concern the project.
+
+To create more keys, first use the authentication server main page to register and then use the following script to create a new public/private key pair.
+
+The App is divided into 3 activities:
+	- BlankActivity is the welcome page and contains buttons. One should click on "Scan QRcode" to access the second activity.
+	- CaptureActivity is the scanning activity. This part of the app uses a opensource code to scan and decode the QRcode.
+The compiled additional package is the following : 'me.dm7.barcodescanner:zxing:1.8.4'*.
+After a successful scanning, the byte stream is stored in an intent and the third activity is called.
+	- DisplayActivity is the decrypting part of the App. This part uses opensource code to decrypt a byte stream with RSA key.
+The compiled additional packages are the following:*
+'com.madgag.spongycastle:core:1.51.0.0'
+'com.madgag.spongycastle:prov:1.51.0.0',
+'com.madgag.spongycastle:pkix:1.51.0.0' and 
+'com.madgag.spongycastle:pg:1.51.0.0'.
+
+
+
+*: These packages should be compiled in the app by adding the line " compile 'package' " in the dependencies of the project. (file build.gradle in Android-Studio).
+
+
+---------------------------
+----/etc/pki/keygen.sh-----
+---------------------------
+The script should be called with a number as argument every time a new user registers. This number corresponds to the userID the key will be generated for. The number of the client is associated to a username and the association is made in login.php regarding the SQL database.
+
+
+---------------------------
+---/var/www/qrcodegen.sh---
+---------------------------
+The script is called in code.php with userID as argument. It generates an 8 digits OTP in otp/client$userID, encrypts this OTP with the public key of the user, and encode the encrypted password in base64.
+
+
+
+

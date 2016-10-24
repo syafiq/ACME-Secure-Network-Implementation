@@ -1,0 +1,28 @@
+#
+#	Please read the documentation file ../doc/processing_users_file,
+#	or 'man 5 users' (after installing the server) for more information.
+#
+#	This file contains authentication security and configuration
+#	information for each user.  Accounting requests are NOT processed
+#	through this file.  Instead, see 'acct_users', in this directory.
+user	Cleartext-Password := "banana132"
+	Reply-Message = "Hello, %{User-Name}"
+
+
+#
+DEFAULT	Framed-Protocol == PPP
+	Framed-Protocol = PPP,
+	Framed-Compression = Van-Jacobson-TCP-IP
+
+#
+# Default for CSLIP: dynamic IP address, SLIP mode, VJ-compression.
+#
+DEFAULT	Hint == "CSLIP"
+	Framed-Protocol = SLIP,
+	Framed-Compression = Van-Jacobson-TCP-IP
+
+#
+# Default for SLIP: dynamic IP address, SLIP mode.
+#
+DEFAULT	Hint == "SLIP"
+	Framed-Protocol = SLIP

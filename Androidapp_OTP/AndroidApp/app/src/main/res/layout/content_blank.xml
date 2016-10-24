@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.antoine.BananaProject.BlankActivity"
+    tools:showIn="@layout/activity_blank">
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/default_ping">
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ping"
+        android:onClick="ping" />
+
+    <!--
+    <ImageButton
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/banana_b"
+        android:background="#ffffff"
+        android:onClick="ping"
+         />
+        -->
+
+    <Button
+        android:id="@+id/button_anyconnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Launch AnyConnect"
+        android:onClick="launch_app"
+        />
+
+    <Button
+        android:id="@+id/button_myip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MyIP"
+        android:onClick="myip"
+        />
+
+    <Button
+        android:id="@+id/button_scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scan QRcode"
+        android:onClick="scan"
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="356dp"
+        android:layout_height="254dp"
+        android:text="" />
+
+</LinearLayout>

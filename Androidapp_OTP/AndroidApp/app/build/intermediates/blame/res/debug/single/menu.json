@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/antoine/bnss/App/BananaProject/app/build/intermediates/res/merged/debug/menu/menu_blank.xml",
+        "source": "/home/antoine/bnss/App/BananaProject/app/src/main/res/menu/menu_blank.xml"
+    },
+    {
+        "merged": "/home/antoine/AndroidStudioProjects/Bananass/app/build/intermediates/res/merged/debug/menu/menu_blank.xml",
+        "source": "/home/antoine/AndroidStudioProjects/Bananass/app/src/main/res/menu/menu_blank.xml"
+    },
+    {
+        "merged": "/home/antoine/bnss/App_OTP/BananaProject/app/build/intermediates/res/merged/debug/menu/menu_blank.xml",
+        "source": "/home/antoine/bnss/App_OTP/BananaProject/app/src/main/res/menu/menu_blank.xml"
+    },
+    {
+        "merged": "/home/antoine/AndroidStudioProjects/BananaProject/app/build/intermediates/res/merged/debug/menu/menu_blank.xml",
+        "source": "/home/antoine/AndroidStudioProjects/BananaProject/app/src/main/res/menu/menu_blank.xml"
+    }
+]

@@ -1,0 +1,27 @@
+<VirtualHost *:80>
+    ServerName apps.ptrl
+    DocumentRoot "/var/www/backend"
+    ErrorLog "/var/log/backend.log"
+
+    Alias /backend "/var/www/backend"
+
+    <Directory "/var/www/backend">        
+        allow from all
+        order allow,deny
+        AllowOverride All
+    </Directory>
+</VirtualHost>
+
+#<VirtualHost *:80>
+#	ErrorLog "/var/log/vm4.log"
+	#CustomLog "/var/log/vm4-access.log"
+#	ProxyPass		/vm4	http://192.168.100.52/
+#	ProxyPassReverse	/vm4	http://192.168.100.52/
+#</VirtualHost>
+
+#<VirtualHost *:443>
+	#ErrorLog "/var/log/vm4-https.log"
+        #CustomLog "/var/log/vm4-access.log" 
+#	ProxyPass               /vm4    http://192.168.100.52/
+#        ProxyPassReverse        /vm4    http://192.168.100.52/
+#</VirtualHost>

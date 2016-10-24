@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Bananapp</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Ping</string>
+    <string name="action_settings">Settings</string>
+    <string name="default_ping">Server</string>
+    <string name="chooser_title">Choose a VPN app</string>
+    <string name="package_name">com.cisco.anyconnect.vpn.android.avf</string>
+    <string name="title_activity_display">One Time Password</string>
+    <string name="title_activity_capture">CaptureActivity</string>
+    <string name="display_announce">Your One Time Password is</string>
+    <string name="path_privatekey">/sdcard/client.pvk</string>
+
+</resources>

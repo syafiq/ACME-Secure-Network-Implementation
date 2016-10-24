@@ -1,0 +1,13 @@
+# -*- text -*-
+##
+## clients.conf -- client configuration directives
+##
+##	$Id$
+
+#  format is still accepted.
+#
+client 0.0.0.0/0 {
+secret = toto!2x06
+shortname=router
+require_message_authenticator = yes
+}
